@@ -255,3 +255,75 @@ body {
     font-size: 16px;
     text-align: center;
 }
+.levelfive {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    gap: 22px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.lps {
+    display: flex;
+    flex-direction: column;
+    max-width: 509px;
+    width: 100%;
+}
+.five_one {
+    display: flex;
+    gap: 12px;
+}
+.five_one > p {
+    font-size: 16px;
+    color: #FFF;
+}
+.five_two > h3 {
+    font-size: 72px;
+    color: #FFF;
+}
+.five_three > p {
+    color: #7A7A7A;
+    font-size: 20px;
+}
+.lps {
+    display: flex;
+    flex-direction: column;
+}
+.five_four {
+    padding: 0px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #00FF1A;
+}
+.five_four > h4 {
+    color: #FFF;
+    font-size: 24px;
+}
+.five_four > p {
+    color: #7A7A7A;
+    font-size: 16px;
+}
+.five_five {
+    padding: 0px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+}
+.five_five > h4 {
+    color: #FFF;
+    font-size: 24px;
+}
+.five_five > p {
+    color: #7A7A7A;
+    font-size: 16px;
+}
+.five_pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
