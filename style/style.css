@@ -38,27 +38,40 @@ body {
     background-color: #00FF1A;
 }
 .levelone {
-    max-width: 1040px;
-    width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    gap: 151px;
 }
-.linediv > p {
+.levelone_left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 564px;
+    width: 100%;
+}
+.levelone_first {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.levelone_first > p {
     color: #FFF;
     font-size: 16px;
 }
-.linediv > img {
-    height: 1px;
-}
-.linediv {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
-h2 {
-    color: #FFF;
+.levelone_earn > p {
     font-size: 72px;
+    color: #FFF;
+}
+.levelone_deposit {
+    color: #7A7A7A;
+    font-size: 20px;
+}
+.levelone_buttons {
+    display: flex;
+    gap: 16px;
 }
 #stake {
     max-width: 132px;
@@ -75,20 +88,9 @@ h2 {
     width: 100%;
     padding: 12px 24px;
     background-color: #000;
+    border: 1px solid #00FF1A;
     color: #FFF;
     font-size: 16px;
     border-radius: 24px;
     gap: 10px;
-}
-#levelone {
-    display: flex;
-    max-width: 1040px;
-    width: 100%;
-    justify-content: center;
-}
-.forcc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
