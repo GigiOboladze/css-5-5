@@ -327,3 +327,89 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 }
+.lastbox {
+    max-width: 1040px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.top_left {
+    max-width: 624px;
+    width: 100%;
+    padding: 24px 32px;
+    background: #1C1C20;
+    display: flex;
+}
+.testimonials {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 12px;;
+}
+.testimonials > p {
+    color: #FFF;
+    font-size: 16px;
+}
+.pic_one {
+    border-radius: 50px;
+    display: flex;
+    align-self: flex-start;
+    padding-right: 16px;
+    flex-direction: column;
+}
+.line_one {
+    display: flex;
+    gap: 13px;
+}
+.line_one > p {
+    color: #FFF;
+    font-size: 16px;
+}
+#spani {
+    color: #7A7A7A;
+    font-size: 14px;
+}
+.line_one > span {
+    color: #7A7A7A;
+    font-size: 14px;
+}
+.starts {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.box_one_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    gap: 12px;
+}
+.line_two > h3 {
+    color: #FFF;
+    font-size: 20px;
+}
+.line_three > p {
+    color: #B7B7B7;
+    font-size: 22px;
+}
+#green {
+    color: #00FF1A;
+}
+.prchxilebi_two {
+    display: flex;
+    align-self: flex-end;
+}
+.last_divv {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.arrow_left {
+    border-radius: 50px;
+    background: #F8F8F8;
+}
+.forarrows {
+    display: flex;
+    flex-direction: column;
+}
