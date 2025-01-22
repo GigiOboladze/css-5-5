@@ -339,6 +339,7 @@ body {
     padding: 24px 32px;
     background: #1C1C20;
     display: flex;
+    flex-direction: column;
 }
 .testimonials {
     display: flex;
@@ -402,14 +403,82 @@ body {
 .last_divv {
     display: flex;
     gap: 10px;
-    justify-content: flex-end;
     align-items: center;
+    max-width: 96px;
+    width: 100%;
+    justify-content: center;
 }
-.arrow_left {
+#marcxenar {
     border-radius: 50px;
     background: #F8F8F8;
+}
+#marjvenar {
+    border-radius: 50px;
+    background-color: #00FF1A;
 }
 .forarrows {
     display: flex;
     flex-direction: column;
+}
+.rame { 
+    display: flex;
+}
+.forposition {
+    max-width: 104px;
+    width:100%;
+    display: flex;
+}
+.row_one {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Support {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.Support > p {
+    font-size: 16px;
+    color: #FFF;
+}
+.bottom_div {
+    max-width: 624px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #1C1C20;
+    align-items: flex-start;
+    gap: 12px;
+}
+.bottom_one > h3 {
+    font-size: 24px;
+    color: #FFF;
+}
+.bottom_two > p {
+    color: #B7B7B7;
+    font-size: 22px;
+    font-style: italic;
+}
+.bottom_three {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.bottom_three > img {
+    border-radius: 50px;
+    background-color: #00FF1A;
+    gap: 10px;
+    padding:8px;
+}
+.bottom_three > p {
+    font-size: 20px;
+    color: #FFF;
+}
+.all_together{
+    display: flex;
+}
+.r_o > p {
+    color: #FFF;
 }
